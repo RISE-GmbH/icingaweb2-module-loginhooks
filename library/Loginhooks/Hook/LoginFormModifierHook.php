@@ -1,6 +1,6 @@
 <?php
 
-namespace Icinga\Module\Oidc\Hook;
+namespace Icinga\Module\Loginhooks\Hook;
 
 
 
