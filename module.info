@@ -1,0 +1,6 @@
+Name: loginhooks
+Version: 0.5.1
+Requires:
+  Libraries: icinga-php-library (>=0.13.0)
+Description: loginhooks
+ This module loginform hooks which allow to change the loginform and attach html code
