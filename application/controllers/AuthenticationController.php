@@ -8,7 +8,7 @@ use Icinga\Application\Hook;
 
 use Icinga\Application\Icinga;
 use Icinga\Application\Logger;
-use Icinga\Module\Loginhooks\Hook\LoginFormModifierHook;
+use Icinga\Module\Oidc\Hook\LoginFormModifierHook;
 use ipl\Html\Html;
 
 

@@ -4,7 +4,7 @@ namespace Icinga\Module\Oidc\Hook;
 
 
 
-abstract class OnUserSaveHook
+abstract class LoginFormModifierHook
 {
     public function init(){
 
@@ -16,5 +16,8 @@ abstract class OnUserSaveHook
     }
     public function renderAfterForm(){
         return "";
+    }
+    public function manipulateLoginForm($form){
+        return $form;
     }
 }
