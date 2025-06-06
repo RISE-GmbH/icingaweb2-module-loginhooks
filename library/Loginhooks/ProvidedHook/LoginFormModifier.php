@@ -11,7 +11,7 @@ class LoginFormModifier extends LoginFormModifierHook
 
     public function renderAfterForm()
     {
-        $html = Html::tag('p',['style'=>'font-size:x-large;font-weight:900;color:red;'],"LOGINHOOK ON");
+        $html = Html::tag('p',[],"LOGINHOOK ON");
         return $html;
     }
 
